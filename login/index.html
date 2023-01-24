@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../login/style.css">
+    <script src="../login/script.js" defer></script>
+    <title>login dark style</title>
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça login<br>E entre para o nosso time</h1>
+            <img src="../login/img/lo-fi-concept-animate.svg" alt="student-animate" class="left-login-img">
+        </div>
+    
+    <div class="right-login">
+        <div class="card-login">
+            <h1>LOGIN</h1>
+            <div class="textfield">
+                <label for="usuario">Usuário</label>
+                <input type="text" id="email" placeholder="Usuário">
+            </div>
+            <div class="textfield">
+                <label for="senha">Senha</label>
+                <input type="password" id="pass" placeholder="Senha">
+                <div class="cb" onclick="reveal()">
+                <img src="../login/img/close.svg" alt="close-eye" id="reveal" >
+                <span>Mostrar senha</span>
+            </div>
+            </div>
+            <button class="btn-login" onclick="Verificar()">Login</button>
+        </div>
+    </div>
+</body>
+</html>
